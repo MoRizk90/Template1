@@ -1,0 +1,138 @@
+/*start of the overall rulesS*/
+.container{
+    width: 1170px;
+    margin: auto;
+}
+body{
+    height: 4000px;
+}
+.clearfix{clear: both;}
+
+/*end of the overall rulesS*/
+
+/* the start of the header styling */
+
+
+.header .slider{
+    background-color: #EEE;
+    height: 600px;
+}
+
+
+.header .navbar{
+     background-color: #252F31;
+     color: #fff;
+     overflow: hidden;
+}
+.header .navbar h2{float: left;}
+
+.header .navbar h2 span{color: #2ecc71;}
+
+
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left; 
+    padding: 10px;
+}
+/* the end of the header styling */
+
+/* the start of the feature section */
+.features{
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+ .features .feat{
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+   
+    background-color: #DDD; /*this will be removed later*/
+
+ }
+ .features .feat h2{ text-transform: uppercase; }
+/* the end of the feature section */
+
+/* the start of the about me section */
+ .aboutMe{
+     background-color: #f2f2f2f2;
+     overflow: hidden;
+ }
+ .aboutMe .image{
+     float: left;
+     width: 40%;
+ }
+ .aboutMe .image img{width: 100%}
+ .aboutMe .info{
+     float: left;
+     text-align: left;
+     width: 60%;
+
+ }
+
+ .aboutMe .info .prof{
+    overflow: hidden;
+    margin: 20px;
+ }
+ .aboutMe .info .prof > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+ }
+/* the End of the about me section */
+
+/* the start of my skill section */
+.mySkills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.mySkills .skillPara,
+.mySkills .skillRate{
+    float: left;
+    width: 50%;
+}
+
+/* the End of my skill section */
+
+/* the Start of my Resume section */
+.resume{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* the End of my Resume section */
+
+
+/* the start of my education section */
+.myEducation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.myEducation .main,
+.myEducation .exp{
+    float: left;
+    width: 50%;
+}
+
+/* the End of my education section */
+
+
+/* the Start of my testominal section */
+.testominal{
+
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* the End of my testominal section */

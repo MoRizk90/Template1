@@ -141,6 +141,21 @@ body{
 .portofolio{
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
+.portofolio .ourWork{
+    overflow: hidden;
+}  
+
+.portofolio .ourWork > div{
+   float: left;
+   width: 33.333333% ;
+   margin-bottom: 15px;
+}  
+
+.portofolio .ourWork > div img{width: 95%;margin: 10px;};
+
 /* the End of Protofolio  section */
+
+/* the Start of Contact me   section */

@@ -45,8 +45,6 @@ body{
     width: 140px;
     font-size: 20px;
     border: 3px solid #FFF;
-
-
 }
 
 .header .navbar{
@@ -74,24 +72,33 @@ body{
 /* the start of the feature section */
 .features{
     overflow: hidden;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
  .features .feat{
     float: left;
     width: 33.3333%;
     height: 150px;
    
-    background-color: #DDD; /*this will be removed later*/
+
 
  }
- .features .feat h2{ text-transform: uppercase; }
+ .features .feat h2{ color: #444}
+
+ .features .feat p{
+    
+    line-height: 1.5;
+    color: #888;
+   
+
+  }
 /* the end of the feature section */
 
 /* the start of the about me section */
  .aboutMe{
      background-color: #f2f2f2f2;
      overflow: hidden;
+     margin-top: 20px;
  }
  .aboutMe .image{
      float: left;

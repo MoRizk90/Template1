@@ -65,7 +65,13 @@ body{
 }
 .header .navbar ul li{
     float: left; 
-    padding: 10px;
+    padding: 10px; 
+}
+
+.header .navbar ul li a{text-decoration: none; color : #fff}
+.header .navbar ul li a.active,
+.header .navbar ul li a:hover{
+    color: #2ecc71;
 }
 /* the end of the header styling */
 
@@ -112,15 +118,33 @@ body{
 
  }
 
+ .aboutMe .info h2{
+    margin: 40px 0 20px 40px;
+ }
+
+ .aboutMe .info > p{
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+ }
+
  .aboutMe .info .prof{
     overflow: hidden;
-    margin: 20px;
+    margin: 20px 0 0 40px;
  }
- .aboutMe .info .prof > div{
+ .aboutMe .info  p{
+    line-height: 1.7;
+ }
+
+
+ .aboutMe .info .prof .content{
     float: left;
     width: 50%;
     min-height: 100px;
+   
  }
+ .aboutMe .info .prof > div p{
+    width: 300px;
+}
 /* the End of the about me section */
 
 /* the start of my skill section */

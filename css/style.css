@@ -27,23 +27,22 @@ body{
     color:#FFF;
 
 }
+
 .header .slider .intro h2{
     margin: 0 auto;
     font-size: 40px;
     width: 600px;
     border-top: 5px solid #FFF;
     border-bottom: 3px solid #FFF;
-    padding: 5px 0;
-
-
-    
-    
+    padding: 5px 0;   
 }
+
 .header .slider .intro button{
     background: none;
     margin-top: 30px; 
     width: 140px;
     font-size: 20px;
+    color: #FFF;
     border: 3px solid #FFF;
 }
 
@@ -65,7 +64,7 @@ body{
 }
 .header .navbar ul li{
     float: left; 
-    padding: 10px; 
+    padding: 10px;  
 }
 
 .header .navbar ul li a{text-decoration: none; color : #fff}
@@ -118,22 +117,20 @@ body{
 
  }
 
- .aboutMe .info h2{
-    margin: 20px 0 20px 40px;
- }
+ .aboutMe .info h2{ margin: 20px 0 20px 40px;}
 
  .aboutMe .info > p{
     margin: 0 0 10px 40px;
     line-height: 1.7;
  }
 
+ .aboutMe .info  p{ line-height: 1.7; }
+
  .aboutMe .info .prof{
     overflow: hidden;
     margin: 15px 0 0 40px;
  }
- .aboutMe .info  p{
-    line-height: 1.7;
- }
+ 
 
 
  .aboutMe .info .prof .content{
@@ -162,9 +159,7 @@ body{
  }
  .aboutMe .info .prof .content .text p{margin-top: 0;}
  .aboutMe .info .prof .content .text h3{margin-bottom: 0;}
- .aboutMe .info .prof > div p{
-    width: 300px;
-}
+ .aboutMe .info .prof > div p{ width: 300px; }
 /* the End of the about me section */
 
 /* the start of my skill section */
@@ -179,30 +174,109 @@ body{
     width: 50%;
 }
 
+
+
+.mySkills .skillPara h2{ margin: 20px 0 20px 40px;}
+
+.mySkills .skillPara > p{margin: 0 0 10px 40px; line-height: 1.7;}
+ 
+.mySkills .skillPara  p{ line-height: 1.7; }
+
+.mySkills .skillPara button{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.mySkills .skillRate .technique {margin-left: 40px;}
+.mySkills .skillRate .technique h3{ color: #555;}
+.mySkills .skillRate .technique div{ background-color: #c4c4c4; height: 25px;}
+.mySkills .skillRate .technique div span{
+    background-color: #2DCC70;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+    
+}
+
 /* the End of my skill section */
 
 /* the Start of my Resume section */
 .resume{
-    background-color: #f2f2f2;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: #dadee5;
+    padding-top: 50px;
+    padding-bottom: 70px;
     text-align: center;
 }
+
+.resume button{
+    margin-top: 30px;
+}
+
+.resume h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 /* the End of my Resume section */
 
 
 /* the start of my education section */
+
 .myEducation{
     padding-top: 30px;
     padding-bottom: 30px;
     overflow: hidden;
 }
-.myEducation .main,
-.myEducation .exp{
+.myEducation .main {
     float: left;
     width: 50%;
+    margin-right: 5%;
 }
+
+.myEducation hr{
+    margin:20px 0;
+    background-color: #999;
+    height: 1px;
+    order: 0;
+}
+
+.myEducation .main  h2{ margin: 20px 0 20px 40px;}
+.myEducation .main > p{margin: 0 0 10px 40px; line-height: 1.7;}
+ 
+myEducation .main  p{ line-height: 1.7; }
+
+.myEducation .exp{float: left; width: 45%;}
+.myEducation .exp h3{
+    margin-top: 68px;
+    margin-bottom: 5px;
+}
+.myEducation .exp span{
+    display: block;
+    margin-bottom: 5px;
+}
+.myEducation .exp span:first-of-type{color: #969393;}
+.myEducation .exp span:last-of-type{
+    background-color: #2DCC70;
+    color: #FFF;
+    display: inline-block;
+    padding: 3px 5px;
+    font-weight: bold;
+} 
+.myEducation .exp hr{
+    margin:20px 0;
+    background-color: #999;
+    height: 1px;
+    order: 0;
+}
+
+.myEducation .exp p{
+    line-height: 1.7;
+    color: #777;
+}
+
 
 /* the End of my education section */
 
@@ -210,10 +284,42 @@ body{
 /* the Start of my testominal section */
 .testominal{
 
-    background-color: #f2f2f2;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: #dadee5;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
+}
+
+.testominal q{
+
+    line-height: 1.9;
+    color: rgb(59, 58, 58);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.testominal h3{
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.testominal ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    
+}
+.testominal ul li{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #2DCC70;
+    display: inline-block;
+}
+.testominal ul li:hover,
+.testominal ul li.active{
+    background-color: #2DCC70;
+    cursor: pointer;
 }
 
 /* the End of my testominal section */
@@ -223,6 +329,7 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+   
 }
 
 .portofolio .ourWork{
@@ -271,3 +378,13 @@ body{
         text-align: center;
     }
 /* the End of Footer section */
+
+/*Start My frameWork*/
+.myButton{
+    background: none; 
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold;
+}
+/*End My frameWork*/

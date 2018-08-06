@@ -1,3 +1,5 @@
+/*458 line*/
+
 /*start of the overall rulesS*/
 .container{
     width: 1170px;
@@ -51,7 +53,6 @@ body{
      color: #fff;
      overflow: hidden;
 }
-.header .navbar h2{float: left;}
 
 .header .navbar h2 span{color: #2ecc71;}
 
@@ -63,7 +64,7 @@ body{
     float: right;
 }
 .header .navbar ul li{
-    float: left; 
+    float: left;  
     padding: 10px;  
 }
 
@@ -75,66 +76,47 @@ body{
 /* the end of the header styling */
 
 /* the start of the feature section */
+
 .features{
     overflow: hidden;
     padding-bottom: 50px;
     padding-top: 50px;
 }
  .features .feat{
-    float: left;
     width: 33.3333%;
     height: 150px;
-   
-
-
  }
  .features .feat h2{ color: #444}
 
- .features .feat p{
-    
-    line-height: 1.5;
-    color: #888;
-   
+ .features .feat p{color: #888;}
 
-  }
 /* the end of the feature section */
 
 /* the start of the about me section */
  .aboutMe{
      background-color: #f2f2f2f2;
      overflow: hidden;
-     margin-top: 20px;
+     margin-top: 50px;
  }
- .aboutMe .image{
-     float: left;
-     width: 40%;
- }
+ .aboutMe .image{width: 40%;}
+
  .aboutMe .image img{width: 100%}
+
  .aboutMe .info{
-     float: left;
      text-align: left;
      width: 60%;
-
  }
 
  .aboutMe .info h2{ margin: 20px 0 20px 40px;}
 
- .aboutMe .info > p{
-    margin: 0 0 10px 40px;
-    line-height: 1.7;
- }
-
- .aboutMe .info  p{ line-height: 1.7; }
+ .aboutMe .info > p{margin: 0 0 10px 40px;}
 
  .aboutMe .info .prof{
     overflow: hidden;
     margin: 15px 0 0 40px;
  }
  
-
-
  .aboutMe .info .prof .content{
-    float: left;
     width: 50%;
     min-height: 100px;
     overflow: hidden;
@@ -142,7 +124,6 @@ body{
  }  
 
  .aboutMe .info .prof .content .icon{
-    float: left;
     width: 10%;
     margin-right: 5%;
    
@@ -152,11 +133,7 @@ body{
      margin-top: 35px;
     }
 
- .aboutMe .info .prof .content .text{
-    float: left;
-    width: 80%;
-   
- }
+ .aboutMe .info .prof .content .text{width: 80%;}
  .aboutMe .info .prof .content .text p{margin-top: 0;}
  .aboutMe .info .prof .content .text h3{margin-bottom: 0;}
  .aboutMe .info .prof > div p{ width: 300px; }
@@ -169,23 +146,17 @@ body{
     overflow: hidden;
 }
 .mySkills .skillPara,
-.mySkills .skillRate{
-    float: left;
-    width: 50%;
-}
-
-
+.mySkills .skillRate{width: 50%;}
 
 .mySkills .skillPara h2{ margin: 20px 0 20px 40px;}
 
-.mySkills .skillPara > p{margin: 0 0 10px 40px; line-height: 1.7;}
- 
-.mySkills .skillPara  p{ line-height: 1.7; }
+.mySkills .skillPara > p{margin: 0 0 10px 40px;}
 
 .mySkills .skillPara button{
     margin-top: 20px;
     margin-left: 40px;
 }
+
 .mySkills .skillRate .technique {margin-left: 40px;}
 .mySkills .skillRate .technique h3{ color: #555;}
 .mySkills .skillRate .technique div{ background-color: #c4c4c4; height: 25px;}
@@ -231,7 +202,6 @@ body{
     overflow: hidden;
 }
 .myEducation .main {
-    float: left;
     width: 50%;
     margin-right: 5%;
 }
@@ -244,11 +214,11 @@ body{
 }
 
 .myEducation .main  h2{ margin: 20px 0 20px 40px;}
-.myEducation .main > p{margin: 0 0 10px 40px; line-height: 1.7;}
- 
-myEducation .main  p{ line-height: 1.7; }
 
-.myEducation .exp{float: left; width: 45%;}
+.myEducation .main > p{margin: 0 0 10px 40px;}
+
+.myEducation .exp{width: 45%;}
+
 .myEducation .exp h3{
     margin-top: 68px;
     margin-bottom: 5px;
@@ -272,10 +242,7 @@ myEducation .main  p{ line-height: 1.7; }
     order: 0;
 }
 
-.myEducation .exp p{
-    line-height: 1.7;
-    color: #777;
-}
+.myEducation .exp p{color: #777;}
 
 
 /* the End of my education section */
@@ -283,7 +250,6 @@ myEducation .main  p{ line-height: 1.7; }
 
 /* the Start of my testominal section */
 .testominal{
-
     background-color: #dadee5;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -326,15 +292,19 @@ myEducation .main  p{ line-height: 1.7; }
 
 /* the Start of Protofolio  section */
 .portofolio{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
     text-align: center;
    
 }
+.portofolio h2{
+    padding-bottom: 30px;
+}
 
-.portofolio .ourWork{
-    overflow: hidden;
-}  
+.portofolio p{padding-bottom: 50px;}
+
+
+.portofolio .ourWork{ overflow: hidden;}  
 
 .portofolio .ourWork > div{
    float: left;
@@ -342,32 +312,76 @@ myEducation .main  p{ line-height: 1.7; }
    margin-bottom: 15px;
 }  
 
-.portofolio .ourWork > div img{width: 95%;margin: 10px;}
+.portofolio .ourWork > div img{
+    width: 95%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border : 2px solid #CCC;
+
+}
 
 /* the End of Protofolio  section */
 
 
 
 /* the Start of Contact me   section */
+
 .contact{
     background-color: #252F31;
     overflow: hidden;
+    padding-top:30px;
 }
 
 .contact h2{
+    margin-left: 40px;
     color: #fff;
 }
 
 .contact p{
     color: #6A6E71;
+    margin-left: 40px;
 }
 
-.contact .form,
+.contact p strong{
+    color:#FFF;
+}
+
+.contact .form{
+    width: 45%;
+}
+
+.contact .form textarea,
+.contact .form input[type="text"] {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border:0;
+    width: 80%;
+}
+
+.contact .form textarea{
+    height: 300px;
+}
 .contact .cInfo{
         width: 50%;
-        float: left;
+        margin-right: 5%;
 }
 
+.contact .form label{
+    display: block;
+    color: #FFF;
+    margin: 10px 0;
+}
+
+.contact .form input[type="submit"]{
+    background-color: #191E22;
+    color: #FFF;
+    margin : 5px 0;
+    padding: 10px 20px;
+    border: 0;
+    margin: 15px 0;
+}
 /* the End of Contact me   section */
 
 /* the Start of Footer section */
@@ -376,7 +390,17 @@ myEducation .main  p{ line-height: 1.7; }
         color: #6A6E71;
         padding: 20px 0;
         text-align: center;
+        overflow: hidden;
     }
+
+    .footer ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .footer ul li{ display: inline-block; }
+
+    .footer ul li img{ width: 24px;}
 /* the End of Footer section */
 
 /*Start My frameWork*/
@@ -387,4 +411,8 @@ myEducation .main  p{ line-height: 1.7; }
     color: #2DCC70;
     font-weight: bold;
 }
+
+.fl-float{float: left;}
+
+p{line-height: 1.7;}
 /*End My frameWork*/
